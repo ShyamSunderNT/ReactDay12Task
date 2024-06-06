@@ -16,7 +16,7 @@ function CartCard() {
           };
 
           const removeQuantity = () => {
-            if (quantity > 1) {
+            if (quantity > 0) {
               setQuantity(quantity - 1);
             }
           };
